@@ -32,6 +32,8 @@
 (require-package 'mwe-log-commands)
 
 (require 'init-evil)
+(require 'init-helm)
+
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
