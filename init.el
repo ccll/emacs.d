@@ -126,6 +126,7 @@
 (require 'init-helm)
 (require 'init-projectile)
 (require 'init-git-extra)     ;; Add git-gutter, and override magit settings
+(require 'init-hl-indent)
 
 ;;----------------------------------------------------------------------------
 ;; Locales (setting them earlier in this file doesn't work in X)
