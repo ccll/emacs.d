@@ -31,10 +31,6 @@
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
 
-(require 'init-evil)
-(require 'init-helm)
-(require 'init-projectile)
-
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
@@ -125,6 +121,11 @@
   (error "Please move init-local.el to ~/.emacs.d/lisp"))
 (require 'init-local nil t)
 
+;; Customized by ccll
+(require 'init-evil)
+(require 'init-helm)
+(require 'init-projectile)
+(require 'init-git-extra)     ;; Add git-gutter, and override magit settings
 
 ;;----------------------------------------------------------------------------
 ;; Locales (setting them earlier in this file doesn't work in X)
