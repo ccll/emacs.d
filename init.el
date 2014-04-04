@@ -33,6 +33,7 @@
 
 (require 'init-evil)
 (require 'init-helm)
+(require 'init-projectile)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
